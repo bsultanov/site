@@ -2,7 +2,6 @@ h1 {
 	color: green; 
 	font-size: 3em; 
 }
-/* Задание 2.1*/
 p.one {
 	color: red;
 	font-size: 10pt;
@@ -10,19 +9,19 @@ p.one {
 	text-align: left; 
 }
 p.two {
-	border: 1px double yellow; /* Параметры границы */
+	border: 1px double yellow; 
 	color: blue;
 	font-size: 12pt;
 	font-weight: bold;
 	text-align: center;
 }
-/* Задание 2.2*/
+
 p.def {
 	text-align: right;
 	margin-left: 3cm;
         margin-right: 2cm;
 }
-/* Задание 2.3*/
+
 p.onestil{
 	background-color: grey;
 	color: brown;
@@ -37,7 +36,7 @@ p.twostil{
 	margin-right: 1cm;
 	font: sans-serif;	
 }
-/* Задание 2.4*/
+
 div.onestil{
 	background-color: grey;
 	color: brown;
@@ -52,24 +51,24 @@ div.twostil{
 	margin-right: 1cm;
 	font: sans-serif;	
 }
-/* Задание 2.5*/
+
 p.nb{
 	border-style:dotted;
 	width:50%;
 	float:left;
 	margin: 10px;
 }
-/* Задание 2.6 +++*/
+
 p.cherta{
-	 border-left: 2px solid #ccc; /* Параметры линии */ 
-    	 margin-left: 20px; /* Отступ слева */
-    	 padding-left: 10px; /* Расстояние от линии до текста */ 
-	 border-right: 2px solid #ccc; /* Параметры линии */ 
-    	 margin-right: 20px; /* Отступ слева */
-    	 padding-right: 10px; /* Расстояние от линии до текста */  
+	 border-left: 2px solid #ccc;  
+    	 margin-left: 20px; 
+    	 padding-left: 10px; 
+	 border-right: 2px solid #ccc;
+    	 margin-right: 20px; 
+    	 padding-right: 10px;  
  
 }
-/* Задание 2.7 ---*/
+
 
 h2.ptwo{
         position: absolute;
@@ -90,7 +89,7 @@ h3.ztwo{
         } 
 
 
-/* Задание 2.8 ---*/
+
 .bukva:first-letter
 {
   font-size: 200%;
@@ -115,19 +114,19 @@ h3.ztwo{
   float: right;
 }
 
-/* Задание 2.9 +++*/
-.layer {
-    overflow: scroll; /* Добавляем полосы прокрутки */
-    width: 300px; /* Ширина блока */
-    height: 150px; /* Высота блока */
-    padding: 5px; /* Поля вокруг текста */
-    border: solid 1px black; /* Параметры рамки */
-   } 
 
-/*Задание 3.1*/
+.layer {
+    overflow: scroll;
+    width: 300px; 
+    height: 150px;
+    padding: 5px; 
+    border: solid 1px black;
+    } 
+
+
 
 #primer{ 
-	/*позиционирование*/
+	
 	position:absolute;
 	top: 295px;
 	left: 295px;
@@ -138,7 +137,7 @@ h3.ztwo{
 }
 
 #z-index{
-	/*позиционирование*/
+	
 	position:absolute;
 	top: 300px;
 	left: 300px;
@@ -147,7 +146,7 @@ h3.ztwo{
 	color: red;
 }
 
-/*Задание 3.2*/
+
 
 
 #floatTip {
@@ -162,7 +161,7 @@ h3.ztwo{
   background: #ECF5E4; 
 }
 
-/*Задание 3.3*/
+
 
 #primerr1{ 
 	position:absolute;
